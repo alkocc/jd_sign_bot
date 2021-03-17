@@ -11,9 +11,6 @@ const download = require('download');
 const KEY = process.env.JD_COOKIE;
 const serverJ = process.env.PUSH_KEY;
 const DualKey = process.env.JD_COOKIE_2;
-const DualKey = process.env.JD_COOKIE_3;
-const DualKey = process.env.JD_COOKIE_4;
-
 
 async function downFile () {
     // const url = 'https://cdn.jsdelivr.net/gh/NobyDa/Script@master/JD-DailyBonus/JD_DailyBonus.js'
